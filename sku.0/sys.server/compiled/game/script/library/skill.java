@@ -1089,6 +1089,7 @@ public class skill extends script.base_script
     {
         String[] skillNames = 
         {
+<<<<<<< HEAD
             "social_politician_novice",
             "social_politician_fiscal_01",
             "social_politician_fiscal_02",
@@ -1107,6 +1108,9 @@ public class skill extends script.base_script
             "social_politician_urban_03",
             "social_politician_urban_04",
             "social_politician_master"
+=======
+            "social_politician_novice"
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         };
         setObjVar(player, "clickRespec.granting", true);
         for (String skillName : skillNames) {

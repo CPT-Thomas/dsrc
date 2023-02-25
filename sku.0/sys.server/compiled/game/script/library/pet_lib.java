@@ -5714,6 +5714,7 @@ public class pet_lib extends script.base_script
         }
         return petControlDevice;
     }
+<<<<<<< HEAD
     public static void destroyOfficerPets(obj_id player) throws InterruptedException
     {
         obj_id datapad = utils.getPlayerDatapad(player);
@@ -5735,6 +5736,8 @@ public class pet_lib extends script.base_script
         }
         return;
     }
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
     public static void addToHarvestDroidArray(obj_id target, obj_id[] players) throws InterruptedException
     {
         if (!isIdValid(target) || players == null || players.length == 0)

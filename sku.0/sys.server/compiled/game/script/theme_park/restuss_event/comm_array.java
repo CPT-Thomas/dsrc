@@ -80,7 +80,11 @@ public class comm_array extends script.base_script
         {
             if ((getStringObjVar(self, OBJ_FACTION)).equals(FAC_REBEL))
             {
+<<<<<<< HEAD
                 if (groundquests.isTaskActive(player, "restuss_imperial_st3_comm_array", "hackCommImperial1"))
+=======
+                if (groundquests.isTaskActive(player, "restuss_imperial_st3_comm_array", "hackCommImperial1") || groundquests.isTaskActive(player, "gcw_imperial_command_post", "hackCommImperial"))
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
                 {
                     mi.addRootMenu(menu_info_types.ITEM_USE, SID_MNU_HACK);
                     return SCRIPT_CONTINUE;
@@ -98,7 +102,11 @@ public class comm_array extends script.base_script
             }
             else if ((getStringObjVar(self, OBJ_FACTION)).equals(FAC_IMPERIAL))
             {
+<<<<<<< HEAD
                 if (groundquests.isTaskActive(player, "restuss_rebel_st3_comm_array", "hackCommRebel1"))
+=======
+                if (groundquests.isTaskActive(player, "restuss_rebel_st3_comm_array", "hackCommRebel1") || groundquests.isTaskActive(player, "gcw_rebel_command_post", "secureCommandRebel"))
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
                 {
                     mi.addRootMenu(menu_info_types.ITEM_USE, SID_MNU_HACK);
                     return SCRIPT_CONTINUE;
@@ -125,7 +133,11 @@ public class comm_array extends script.base_script
             {
                 if ((getStringObjVar(self, OBJ_FACTION)).equals(FAC_REBEL))
                 {
+<<<<<<< HEAD
                     if (groundquests.isTaskActive(player, "restuss_imperial_st3_comm_array", "hackCommImperial1"))
+=======
+                    if (groundquests.isTaskActive(player, "restuss_imperial_st3_comm_array", "hackCommImperial1") || groundquests.isTaskActive(player, "gcw_imperial_command_post", "hackCommImperial"))
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
                     {
                         utils.setScriptVar(self, "beingHacked", player);
                         sendSystemMessage(player, SID_HACK_PROGRESS);
@@ -144,7 +156,11 @@ public class comm_array extends script.base_script
                 }
                 else if ((getStringObjVar(self, OBJ_FACTION)).equals(FAC_IMPERIAL))
                 {
+<<<<<<< HEAD
                     if (groundquests.isTaskActive(player, "restuss_rebel_st3_comm_array", "hackCommRebel1"))
+=======
+                    if (groundquests.isTaskActive(player, "restuss_rebel_st3_comm_array", "hackCommRebel1") || groundquests.isTaskActive(player, "gcw_rebel_command_post", "secureCommandRebel"))
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
                     {
                         utils.setScriptVar(self, "beingHacked", player);
                         sendSystemMessage(player, SID_HACK_PROGRESS);

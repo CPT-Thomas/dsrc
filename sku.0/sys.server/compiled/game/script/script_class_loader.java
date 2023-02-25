@@ -402,7 +402,10 @@ public class script_class_loader extends ClassLoader
 		defaultLoad.add("script.transform");
 		defaultLoad.add("script.vector");
 		defaultLoad.add("script.system_process");
+<<<<<<< HEAD
 		defaultLoad.add("script.terminal.terminal_character_builder$warp_location");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 	}
 
 }   // class script_class_loader

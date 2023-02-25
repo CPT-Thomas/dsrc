@@ -6,4 +6,8 @@
 objectName = "mob/creature_names" "vendor_tcg_6"
 detailedDescription = "" ""
 
+<<<<<<< HEAD
 appearanceFilename = "appearance/kitonak_m.sat"
+=======
+appearanceFilename = "appearance/lando.sat"
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

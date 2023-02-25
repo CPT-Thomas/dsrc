@@ -23,7 +23,14 @@ sharedTemplate = "object/tangible/deed/player_house_deed/shared_corellia_house_m
 objvars = +[
 	"player_structure.deed.template" = "object/building/player/player_house_corellia_medium_style_02.iff",
 	"player_structure.deed.buildtime" = 180,
+<<<<<<< HEAD
 	"player_structure.deed.scene" = "corellia,talus"]
 
 scripts = +[
 	"item.structure_deed.player_structure_deed"]
+=======
+	"player_structure.deed.scene" = "corellia,talus,endor"]
+
+scripts = +[
+	"item.structure_deed.player_structure_deed"]
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

@@ -2581,7 +2581,11 @@ public class player_building extends script.base_script
         setObjVar(structure, player_structure.VAR_RESIDENCE_BUILDING, self);
         messageTo(oldresidence, "removeResidentVar", null, 0.0f, true);
         city.setCityResidence(self, structure);
+<<<<<<< HEAD
         skill.grantAllPoliticianSkills(self);
+=======
+	skill.noisyGrantSkill(self, "social_politician_novice");
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         return SCRIPT_CONTINUE;
     }
     public int transferStructure(obj_id self, obj_id target, String params, float defaultTime) throws InterruptedException

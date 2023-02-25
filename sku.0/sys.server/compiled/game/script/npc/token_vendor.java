@@ -23,7 +23,10 @@ public class token_vendor extends script.base_script
     public static final int OFFICER = 4;
     public static final int SPY = 5;
     public static final int BOUNTY_HUNTER = 6;
+<<<<<<< HEAD
     public static final int FORCE_SENSITIVE = 7;
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
     public static final int TRADER = 8;
     public static final int ENTERTAINER = 9;
     public int showInventorySUI(obj_id self, dictionary params) throws InterruptedException

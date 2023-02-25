@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Object Template	Comment
 s	c
 object/tangible/furniture/decorative/vet_reward_emperor_painting.iff	"specify the object template or static name of items that, when they have the noTrade objvar, can be"
@@ -141,3 +142,12 @@ item_nym_themepark_rug_01_01
 item_nym_themepark_painting_01_01
 item_nym_themepark_mounted_slugthrower_01_01
 weapon_jinkins_j1_01_01
+=======
+Object Template	Comment
+s	c
+	specify the object template or static name of items that, when they have the noTrade objvar, can be
+	picked up by another character on the same account as the character who currently owns the item
+	
+	or alternative, individual no trade item can be set with the noTradeShared objvar to allow the ability
+	only on that particular item
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

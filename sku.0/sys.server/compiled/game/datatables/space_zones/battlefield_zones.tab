@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 zoneName	pvp
 s	b
 space_heavy1	1
 space_light1	0
+=======
+zoneName	pvp
+s	b
+space_heavy1	1
+space_light1	1
+space_yavin4	1
+space_dantooine	1
+space_dathomir	1
+space_endor	1
+space_lok	1
+e3_space_kashyyyk	1
+e3_space_light1	1
+e3_space_yavin4	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

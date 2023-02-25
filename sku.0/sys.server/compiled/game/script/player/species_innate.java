@@ -47,13 +47,19 @@ public class species_innate extends script.base_script
             grantSkill(self, "social_language_basic_comprehend");
             grantSkill(self, "social_language_bothan_speak");
             grantSkill(self, "social_language_bothan_comprehend");
+<<<<<<< HEAD
             grantSkill(self, "social_language_wookiee_comprehend");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             break;
             case SPECIES_HUMAN:
             grantSkill(self, "species_human");
             grantSkill(self, "social_language_basic_speak");
             grantSkill(self, "social_language_basic_comprehend");
+<<<<<<< HEAD
             grantSkill(self, "social_language_wookiee_comprehend");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             break;
             case SPECIES_MON_CALAMARI:
             grantSkill(self, "species_moncal");
@@ -61,7 +67,10 @@ public class species_innate extends script.base_script
             grantSkill(self, "social_language_basic_comprehend");
             grantSkill(self, "social_language_moncalamari_speak");
             grantSkill(self, "social_language_moncalamari_comprehend");
+<<<<<<< HEAD
             grantSkill(self, "social_language_wookiee_comprehend");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             break;
             case SPECIES_RODIAN:
             grantSkill(self, "species_rodian");
@@ -69,7 +78,10 @@ public class species_innate extends script.base_script
             grantSkill(self, "social_language_basic_comprehend");
             grantSkill(self, "social_language_rodian_speak");
             grantSkill(self, "social_language_rodian_comprehend");
+<<<<<<< HEAD
             grantSkill(self, "social_language_wookiee_comprehend");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             break;
             case SPECIES_TRANDOSHAN:
             grantSkill(self, "species_trandoshan");
@@ -77,7 +89,10 @@ public class species_innate extends script.base_script
             grantSkill(self, "social_language_basic_comprehend");
             grantSkill(self, "social_language_trandoshan_speak");
             grantSkill(self, "social_language_trandoshan_comprehend");
+<<<<<<< HEAD
             grantSkill(self, "social_language_wookiee_comprehend");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             break;
             case SPECIES_TWILEK:
             grantSkill(self, "species_twilek");
@@ -87,7 +102,10 @@ public class species_innate extends script.base_script
             grantSkill(self, "social_language_twilek_comprehend");
             grantSkill(self, "social_language_lekku_speak");
             grantSkill(self, "social_language_lekku_comprehend");
+<<<<<<< HEAD
             grantSkill(self, "social_language_wookiee_comprehend");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             break;
             case SPECIES_WOOKIEE:
             grantSkill(self, "species_wookiee");
@@ -101,7 +119,10 @@ public class species_innate extends script.base_script
             grantSkill(self, "social_language_basic_comprehend");
             grantSkill(self, "social_language_zabrak_speak");
             grantSkill(self, "social_language_zabrak_comprehend");
+<<<<<<< HEAD
             grantSkill(self, "social_language_wookiee_comprehend");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             break;
             case SPECIES_ITHORIAN:
             grantSkill(self, "species_ithorian");
@@ -109,7 +130,10 @@ public class species_innate extends script.base_script
             grantSkill(self, "social_language_basic_comprehend");
             grantSkill(self, "social_language_ithorian_speak");
             grantSkill(self, "social_language_ithorian_comprehend");
+<<<<<<< HEAD
             grantSkill(self, "social_language_wookiee_comprehend");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             break;
             case SPECIES_SULLUSTAN:
             grantSkill(self, "species_sullustan");
@@ -117,7 +141,10 @@ public class species_innate extends script.base_script
             grantSkill(self, "social_language_basic_comprehend");
             grantSkill(self, "social_language_sullustan_speak");
             grantSkill(self, "social_language_sullustan_comprehend");
+<<<<<<< HEAD
             grantSkill(self, "social_language_wookiee_comprehend");
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             break;
             default:
             detachScript(self, SCRIPT_ME);

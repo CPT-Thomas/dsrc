@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 strItems
 s
 specific_npc/undead:undead_41_50
@@ -15,3 +16,19 @@ specific_npc/undead:undead_41_50
 specific_npc/undead:undead_41_50
 specific_npc/undead:undead_41_50
 specific_npc/undead:undead_41_50
+=======
+strItems
+s
+specific_npc/undead:undead_41_50
+consumables/simple_consumables_41_51
+wearables/dynamic_armor_standard
+weapons/dynamic_simple
+crafting_loot/loot_schematics
+crafting_loot/simple_kit
+crafting_loot/weapon_components:wp_comp_41_51
+specific_npc/undead:undead_41_50
+specific_npc/undead:undead_41_50
+specific_npc/undead:undead_41_50
+specific_npc/undead:undead_41_50
+specific_npc/undead:undead_41_50
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

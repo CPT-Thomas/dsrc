@@ -67,7 +67,11 @@ public class city_hall extends script.base_script
                 }
                 removeObjVar(self, "candidate_list");
             }
+<<<<<<< HEAD
             if (city.CITY_VERSION == 4)
+=======
+            if (city.CITY_VERSION == 1)
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             {
                 if (hasObjVar(self, "spec_stamp"))
                 {
@@ -231,10 +235,13 @@ public class city_hall extends script.base_script
     }
     public int validateCity(obj_id self, dictionary params) throws InterruptedException
     {
+<<<<<<< HEAD
         if(hasObjVar(self, city.OBJVAR_DERANK_EXEMPT))
         {
             return SCRIPT_CONTINUE; // don't destroy a city a GM flagged as de-rank exempt
         }
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         int city_id = findCityByCityHall(self);
         obj_id mayor = cityGetLeader(city_id);
         int total_citizens = 0;
@@ -533,7 +540,11 @@ public class city_hall extends script.base_script
     public int st_citySpecBonusCheck(obj_id self, dictionary params) throws InterruptedException
     {
         int city_id = getCityAtLocation(getLocation(self), 0);
+<<<<<<< HEAD
         if (city_id > 0 && city.cityHasSpec(city_id, city.SF_SPEC_STORYTELLER))
+=======
+        if (city_id > 0)
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         {
             obj_id st_object = params.getObjId("queryObject");
             messageTo(st_object, "st_receivedCityResponse", null, 0.0f, false);

@@ -13,13 +13,19 @@ public class officer_pet extends script.base_script
     public int OnAttach(obj_id self) throws InterruptedException
     {
         messageTo(self, "getAndFollowMaster", null, 3, false);
+<<<<<<< HEAD
         messageTo(self, "verifyReinforcementsSkill", null, 3, false);
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         return SCRIPT_CONTINUE;
     }
     public int OnInitialize(obj_id self) throws InterruptedException
     {
         messageTo(self, "getAndFollowMaster", null, 3, false);
+<<<<<<< HEAD
         messageTo(self, "verifyReinforcementsSkill", null, 3, false);
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         return SCRIPT_CONTINUE;
     }
     public int getAndFollowMaster(obj_id self, dictionary params) throws InterruptedException
@@ -33,6 +39,7 @@ public class officer_pet extends script.base_script
         pet_lib.doCommandNum(self, pet_lib.COMMAND_FOLLOW, master);
         return SCRIPT_CONTINUE;
     }
+<<<<<<< HEAD
     public int verifyReinforcementsSkill(obj_id self, dictionary params) throws InterruptedException
     {
         obj_id master = getMaster(self);
@@ -47,4 +54,6 @@ public class officer_pet extends script.base_script
         }
         return SCRIPT_CONTINUE;
     }
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 }

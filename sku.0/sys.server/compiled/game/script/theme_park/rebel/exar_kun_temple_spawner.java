@@ -189,10 +189,13 @@ public class exar_kun_temple_spawner extends script.base_script
         removeObjVar(self, "HideoutInhabitants.trooper5");
         return;
     }
+<<<<<<< HEAD
     public int doGating(obj_id self, dictionary params) throws InterruptedException
     {
         obj_id room3 = getCellId(self, "r3");
         attachScript(room3, "theme_park.gating.rebel.exar_kun_block1");
         return SCRIPT_CONTINUE;
     }
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 }

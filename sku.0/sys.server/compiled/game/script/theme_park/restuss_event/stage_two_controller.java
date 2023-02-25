@@ -32,8 +32,13 @@ public class stage_two_controller extends script.base_script
     public int beginSpawning(obj_id self, dictionary params) throws InterruptedException
     {
         setObjVar(self, "eventStarted", 1);
+<<<<<<< HEAD
         boolean restussEventActive = utils.checkConfigFlag("EventTeam", "restussEvent");
         if(restussEventActive){
+=======
+        String restussEvent = getConfigSetting("EventTeam", "restussEvent");
+        if(restussEvent != null && (restussEvent.equals("1") || restussEvent.equals("true"))){
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             LOG("events", "Restuss Event - Event is on.");
             String phaseVal = getConfigSetting("EventTeam", "restussPhase");
             doMessageTo("messageTo:broadcastMessage:10:beginEventNotification:0");
@@ -42,9 +47,15 @@ public class stage_two_controller extends script.base_script
                 if(phase > 2) phase = 2;
                 if(phase < 0) phase = 0;
                 LOG("events", "Restuss Event - Config set to put Restuss into phase " + phaseVal);
+<<<<<<< HEAD
                 boolean progressionOn = utils.checkConfigFlag("EventTeam", "restussProgressionOn");
                 // Check if the user wants to progress through stage one or not.  If so, start the cycle.
                 if(progressionOn) {
+=======
+                String progressionOn = getConfigSetting("EventTeam", "restussProgressionOn");
+                // Check if the user wants to progress through stage one or not.  If so, start the cycle.
+                if(progressionOn != null && (!progressionOn.equals("false") || !progressionOn.equals("0"))) {
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
                     dictionary dict = trial.getSessionDict(self);
                     switch(phase){
                         case 0:
@@ -78,7 +89,11 @@ public class stage_two_controller extends script.base_script
         if (!isGod(speaker)) {
             return SCRIPT_CONTINUE;
         }
+<<<<<<< HEAD
         if (text.equalsIgnoreCase("start restuss event") && getIntObjVar(self, "eventStarted") != 1) {
+=======
+        if (text.toLowerCase().equals("start restuss event") && getIntObjVar(self, "eventStarted") != 1) {
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             LOG("events", "Restuss Event - Manually starting the Restuss Event.");
             startRestussBaseSpawners(self);
             startRestussCitySpawner(self);
@@ -457,9 +472,15 @@ public class stage_two_controller extends script.base_script
         dungeon_info.put("position_z", loc.z);
         replaceClusterWideData(manage_name, name, dungeon_info, true, lock_key);
 
+<<<<<<< HEAD
         boolean restussEventActive = utils.checkConfigFlag("EventTeam", "restussEvent");
 
         if(!restussEventActive) {
+=======
+        String restussEvent = getConfigSetting("EventTeam", "restussEvent");
+
+        if(restussEvent == null || (!restussEvent.equals("1") && !restussEvent.equals("true"))) {
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             LOG("events", "Restuss Event - Event is turned off.");
         } else {
             startRestussCitySpawner(self);
