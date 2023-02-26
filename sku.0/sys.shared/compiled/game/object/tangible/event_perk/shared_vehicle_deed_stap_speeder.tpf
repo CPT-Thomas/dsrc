@@ -5,8 +5,14 @@
 @class object_template 5
 
 
+<<<<<<< HEAD
 objectName = "event_perk" "stap_speeder"
 
 detailedDescription = "event_perk_detail" "stap_speeder"
+=======
+objectName = "" "stap_speeder"
+
+detailedDescription = "" "stap_speeder"
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 
 appearanceFilename = "appearance/eqp_tool_datapad.apt"

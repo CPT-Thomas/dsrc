@@ -2,6 +2,10 @@ package script.player.base;
 
 import script.*;
 import script.library.*;
+<<<<<<< HEAD
+=======
+import script.library.xp;
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 
 import java.util.Iterator;
 import java.util.Set;
@@ -312,6 +316,7 @@ public class base_player extends script.base_script
         }
         return SCRIPT_CONTINUE;
     }
+<<<<<<< HEAD
     public int OnEnteredCombat(obj_id self) throws InterruptedException
     {
         int shapechange = buff.getBuffOnTargetFromGroup(self, "shapechange");
@@ -322,6 +327,8 @@ public class base_player extends script.base_script
         }
         return SCRIPT_CONTINUE;
     }
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
     public int OnAttach(obj_id self) throws InterruptedException
     {
         final String[] NEWBIE_PROFICIENCIES = 
@@ -3400,12 +3407,21 @@ public class base_player extends script.base_script
         if (!utils.hasScriptVar(self, "no_cloning_sickness") && !instance.isInInstanceArea(self))
         {
             buff.applyBuff(self, "cloning_sickness");
+<<<<<<< HEAD
+=======
+
+	    xp.grant(self, "jedi", -1000000);
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         }
         else if (utils.hasScriptVar(self, "no_cloning_sickness"))
         {
             utils.removeScriptVar(self, "no_cloning_sickness");
         }
+<<<<<<< HEAD
         if (0 == pvpGetAlignedFaction(self))
+=======
+	if (0 == pvpGetAlignedFaction(self))
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         {
             int currentMercenaryFaction = pvpNeutralGetMercenaryFaction(self);
             if ((0 != currentMercenaryFaction) && pvpNeutralIsMercenaryDeclared(self))
@@ -3413,6 +3429,13 @@ public class base_player extends script.base_script
                 pvpNeutralSetMercenaryFaction(self, currentMercenaryFaction, false);
             }
         }
+<<<<<<< HEAD
+=======
+	if (hasSkill(self, "class_forcesensitive_phase1_master"))
+        {
+            buff.applyBuff(self, "costume_seven_obi_wan_ghost");
+        }
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         CustomerServiceLog("Death", "(" + self + ") " + getName(self) + " has clone respawned at " + (getLocation(self)).toString());
         return SCRIPT_CONTINUE;
     }

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 server_template_crc	cell_index	px	py	pz	qw	qx	qy	qz	scripts	objvars
 h	i	f	f	f	f	f	f	f	s	p
 object/building/kashyyyk/thm_kash_rodian_bannerpole_s01.iff	0	0	195	0	0	0	0	0		$|
+=======
+server_template_crc	cell_index	px	py	pz	qw	qx	qy	qz	scripts	objvars
+h	i	f	f	f	f	f	f	f	s	p
+object/building/kashyyyk/thm_kash_rodian_bannerpole_s01.iff	0	0	195	0	0	0	0	0		$|
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

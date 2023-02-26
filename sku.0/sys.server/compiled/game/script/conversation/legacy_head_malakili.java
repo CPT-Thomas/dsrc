@@ -54,6 +54,15 @@ public class legacy_head_malakili extends script.base_script
     {
         groundquests.sendSignal(player, "legacy_head_rod_launch_e2");
     }
+<<<<<<< HEAD
+=======
+    public void event_malakili_action_vendor(obj_id player, obj_id npc) throws InterruptedException
+    {
+        dictionary d = new dictionary();
+        d.put("player", player);
+        messageTo(npc, "showInventorySUI", d, 0, false);
+    }
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
     public int legacy_head_malakili_handleBranch1(obj_id player, obj_id npc, string_id response) throws InterruptedException
     {
         if (response.equals("s_45"))
@@ -1440,6 +1449,10 @@ public class legacy_head_malakili extends script.base_script
         if (legacy_head_malakili_condition_rodCompleted(player, npc))
         {
             legacy_head_malakili_action_facePlayer(player, npc);
+<<<<<<< HEAD
+=======
+	    event_malakili_action_vendor(player, npc);
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
             string_id message = new string_id(c_stringFile, "s_49");
             chat.chat(npc, player, message);
             return SCRIPT_CONTINUE;

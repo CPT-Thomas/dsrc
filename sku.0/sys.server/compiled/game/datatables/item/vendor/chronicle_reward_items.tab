@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 item	cash	token0	token1	token2	token3	token4	token5	token6	token7	token8	token9	token10	token11	token12	token13	token14	token15	token16	class	script	note
 s[none]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	s	c
 item_pgc_booster_pack																	20		0		"See library.utils for the int value of the classes. 0 is ""all"" but will only show if there are no items for the opener's class."
@@ -50,3 +51,26 @@ item_pgc_token_03																	1000
 item_costume_chiss_01																	119
 item_costume_exar_kun_cultist																	119
 item_costume_kit	900																
+=======
+item	cash	token0	token1	token2	token3	token4	token5	token6	token7	token8	token9	token10	token11	token12	token13	token14	token15	token16	class	script	note
+s[none]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	s	c
+rare_loot_chest_quality_1																		1			
+rare_loot_chest_quality_2																		5	0		
+rare_loot_chest_quality_3																		10	0		
+item_pgc_token_02																16					
+item_pgc_token_03																	1000				
+item_pgc_token_03		4																			
+item_pgc_token_03			4																		
+item_pgc_token_03				4																	
+item_pgc_token_03					4																
+item_pgc_token_03						4															
+item_pgc_token_03							4														
+item_pgc_token_03								4													
+item_pgc_token_03									4												
+item_pgc_token_03										4											
+item_pgc_token_03											4										
+item_pgc_token_03												4									
+item_pgc_token_03													4								
+item_pgc_token_03														4							
+item_pgc_token_03															4						
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

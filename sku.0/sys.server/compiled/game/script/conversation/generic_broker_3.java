@@ -32,7 +32,11 @@ public class generic_broker_3 extends script.base_script
     public boolean generic_broker_3_condition_missionTierRequirement(obj_id player, obj_id npc) throws InterruptedException
     {
         float underworldFaction = factions.getFactionStanding(player, "underworld");
+<<<<<<< HEAD
         if (smuggler.getSmuggleTier(underworldFaction) == 3)
+=======
+        if (smuggler.getSmuggleTier(underworldFaction) == 1)
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         {
             return true;
         }

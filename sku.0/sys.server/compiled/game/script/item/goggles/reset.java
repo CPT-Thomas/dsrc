@@ -24,6 +24,7 @@ public class reset extends script.base_script
     };
     public int createNewGoggles(obj_id self, obj_id target, String params, float defaultTime) throws InterruptedException
     {
+<<<<<<< HEAD
     
         String config = getConfigSetting("GameServer", "seGogglesReward");
         if (config == null || !config.equals("true"))
@@ -31,6 +32,8 @@ public class reset extends script.base_script
             return SCRIPT_CONTINUE;
         }
     
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         boolean createFailed = false;
         if (features.isCollectorEdition(self) || features.isJPCollectorEdition(self))
         {

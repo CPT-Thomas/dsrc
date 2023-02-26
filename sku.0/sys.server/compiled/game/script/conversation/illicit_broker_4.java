@@ -32,7 +32,11 @@ public class illicit_broker_4 extends script.base_script
     public boolean illicit_broker_4_condition_smugglerAboveMissionTier(obj_id player, obj_id npc) throws InterruptedException
     {
         float underworldFaction = factions.getFactionStanding(player, "underworld");
+<<<<<<< HEAD
         int brokerTier = 4;
+=======
+        int brokerTier = 1;
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         if (smuggler.getSmuggleTier(underworldFaction) > brokerTier)
         {
             return true;
@@ -41,7 +45,11 @@ public class illicit_broker_4 extends script.base_script
     }
     public boolean illicit_broker_4_condition_hasMissionContrabandBusiness(obj_id player, obj_id npc) throws InterruptedException
     {
+<<<<<<< HEAD
         int brokerTier = 4;
+=======
+        int brokerTier = 1;
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         if (smuggler.hasMissionContrabandForTransaction(player, brokerTier))
         {
             return true;
@@ -67,7 +75,11 @@ public class illicit_broker_4 extends script.base_script
     public boolean illicit_broker_4_condition_hasMissionContrabandToDeliver(obj_id player, obj_id npc) throws InterruptedException
     {
         float underworldFaction = factions.getFactionStanding(player, "underworld");
+<<<<<<< HEAD
         int brokerTier = 4;
+=======
+        int brokerTier = 1;
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         if (smuggler.getSmuggleTier(underworldFaction) == brokerTier)
         {
             return true;

@@ -33,7 +33,11 @@ public class pvp_battlefield extends script.base_script
     public static final float BATTLEFIELD_HEARTBEAT = 5.0f;
     public static final float BATTLEFIELD_INVITATION_RECALCULATE_TIME = 60.0f;
     public static final float BATTLEFIELD_INVITATION_REINVITE_TIME = 65.0f;
+<<<<<<< HEAD
     public static final int BATTLEFIELD_MINIMUM_TEAM_SIZE = 4;
+=======
+    public static final int BATTLEFIELD_MINIMUM_TEAM_SIZE = 2;
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
     public static final int BATTLEFIELD_MAXIMUM_TEAM_SIZE = 16;
     public static final int BATTLEFIELD_PLAYER_KILL_VALUE = 10;
     public static final int BATTLEFIELD_TERMINAL_CAPTURE_VALUE = 500;

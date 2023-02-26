@@ -48,6 +48,7 @@ public class npc_vendor extends script.base_script
                 break;
             }
             case 1:
+<<<<<<< HEAD
             boolean playerHasItem = utils.playerHasStaticItemInBankOrInventory(player, "item_npe_tatooine_bug_juice_01_01");
             if (!playerHasItem)
             {
@@ -56,6 +57,16 @@ public class npc_vendor extends script.base_script
                 {
                     d.put("player", player);
                     d.put("item", bugJuice);
+=======
+            boolean playerHasItem = utils.playerHasStaticItemInBankOrInventory(player, "item_pet_mount_carrion_01_01");//prototype for choosing creature starters
+            if (!playerHasItem)
+            {
+                obj_id starterBeast = static_item.createNewItemFunction("item_pet_mount_carrion_01_01", player);
+                if (isIdValid(starterBeast))
+                {
+                    d.put("player", player);
+                    d.put("item", starterBeast);
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
                     d.put("npc", self);
                     money.requestPayment(player, "Tyrral", price, "handleTransaction", d, true);
                     break;

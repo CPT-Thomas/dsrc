@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 planetName	minLevel	maxLevel
 s	i[1]	i[90]
 tatooine	1	30
@@ -10,3 +11,17 @@ lok	50	70
 yavin4	70	90
 endor	70	90
 dathomir	80	90
+=======
+planetName	minLevel	maxLevel
+s	i[1]	i[90]
+tatooine	1	90
+naboo	20	90
+corellia	20	90
+rori	40	90
+talus	40	90
+dantooine	50	90
+lok	50	90
+yavin4	70	90
+endor	70	90
+dathomir	80	90
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

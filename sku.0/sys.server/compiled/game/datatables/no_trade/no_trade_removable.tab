@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Object Template	Comment
 s	c
 item_pgc_planet_hologram_dantooine
@@ -73,3 +74,8 @@ item_content_click_health_02_01
 item_tow_schematic_jedi_statue_02_01
 heroic_minder_creature_knowledge_gloves_02_01
 item_outbreak_cornburr_brain
+=======
+Object Template	Comment
+s	c
+item_pgc_booster_pack	
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

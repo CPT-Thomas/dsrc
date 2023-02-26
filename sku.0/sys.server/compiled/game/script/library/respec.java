@@ -127,7 +127,10 @@ public class respec extends script.base_script
         }
         String msg = "NPC_RESPEC: %TU has initiated a respec via NPC for " + cost + " credits.  Current combat level is " + getLevel(player) + "; current skill template is " + oldTemplate;
         trace.log("respec", msg, player, trace.TL_CS_LOG);
+<<<<<<< HEAD
         pet_lib.destroyOfficerPets(player);
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         obj_id weapon = getCurrentWeapon(player);
         // make sure our weapon is valid and isn't the base default weapon
         if (isIdValid(weapon) && !getTemplateName(weapon).equals("object/weapon/melee/unarmed/unarmed_default_player.iff"))
@@ -374,7 +377,10 @@ public class respec extends script.base_script
             money.requestPayment(player, money.ACCT_SKILL_TRAINING, cost, "none", null, false);
         }
         utils.fullExpertiseReset(player, true);
+<<<<<<< HEAD
         pet_lib.destroyOfficerPets(player);
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         int numBought = 0;
         if (hasObjVar(player, "expertise_reset"))
         {
@@ -596,7 +602,10 @@ public class respec extends script.base_script
     public static void earnProfessionSkills(obj_id player, String skillTemplateName, boolean withItems) throws InterruptedException
     {
         setObjVar(player, "clickRespec.granting", 1);
+<<<<<<< HEAD
         pet_lib.destroyOfficerPets(player);
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         revokeAllSkillsAndExperience(player);
         buff.removeAllBuffs(player, true, true);
         int combatLevel = 0;

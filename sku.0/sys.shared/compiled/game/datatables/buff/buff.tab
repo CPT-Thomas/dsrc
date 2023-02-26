@@ -189,6 +189,7 @@ dessert_deneelian_fizz_pudding	food			1	buffs.foodDessert	1200	luck_modified	80	
 dessert_luilris_mushroom_pie	food			1	buffs.foodDessert	1200	constitution_modified	100	stamina_modified	100		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 drink_warrl_surprise	food			1	buffs.foodBeverage	900	agility_modified	55	strength_modified	20	constitution_modified	20		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 tasty_beverage	food			1	buffs.foodBeverage	120	constitution_modified	5	agility_modified	5	stamina_modified	5	luck_modified	5		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 shadowpaw	spice			1	buffs.spiceAction	300	agility_modified	-25	stamina_modified	50		0		0		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
 shadowpaw_01	spice			1	buffs.spiceAction	900	agility_modified	-25	stamina_modified	50		0		0		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
 scramjet	spice			1	buffs.spiceHealth	300	agility_modified	50	stamina_modified	-12	luck_modified	-12		0		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
@@ -223,6 +224,42 @@ kwi_boost	spice			4	buffs.spicePill	900	constitution_modified	-50	agility_modifi
 kwi_boost_01	spice			4	buffs.spicePill	900	constitution_modified	-50	agility_modified	50	stamina_modified	50	luck_modified	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
 kliknik_boost	spice			4	buffs.spicePill	900	constitution_modified	10	agility_modified	20	stamina_modified	20	luck_modified	10		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
 kliknik_boost_01	spice			4	buffs.spicePill	900	constitution_modified	10	agility_modified	20	stamina_modified	20	luck_modified	10		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+=======
+shadowpaw	spice			1	buffs.spiceAction	300	agility_modified	-25	stamina_modified	50	xp_bonus_general	50		0		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+shadowpaw_01	spice			1	buffs.spiceAction	900	agility_modified	-25	stamina_modified	50		0	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+scramjet	spice			1	buffs.spiceHealth	300	agility_modified	50	stamina_modified	-12	luck_modified	-12	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+scramjet_01	spice			1	buffs.spiceHealth	900	agility_modified	50	stamina_modified	-12	luck_modified	-12	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+grey_gabaki	spice			1	buffs.spiceMind	300	constitution_modified	-25	luck_modified	50		0	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+grey_gabaki_01	spice			1	buffs.spiceMind	900	constitution_modified	-25	luck_modified	50		0	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+sweetblossom	spice			2	buffs.spiceHealth	600	constitution_modified	25	agility_modified	50	stamina_modified	-25	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+sweetblossom_01	spice			2	buffs.spiceHealth	900	constitution_modified	-25	agility_modified	50	stamina_modified	-25	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+giggledust	spice			2	buffs.spiceAction	600	stamina_modified	50	luck_modified	-25		0	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+giggledust_01	spice			2	buffs.spiceAction	900	stamina_modified	50	luck_modified	-25		0	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+yarrock	spice			2	buffs.spiceMind	600	constitution_modified	25	agility_modified	-30	luck_modified	50	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+yarrock_01	spice			2	buffs.spiceMind	900	constitution_modified	25	agility_modified	-25	luck_modified	75	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+sedative_h4b	spice			2	buffs.spiceHealth	600	agility_modified	50	stamina_modified	-30	luck_modified	25	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+sedative_h4b_01	spice			2	buffs.spiceHealth	900	strength_modified	50	stamina_modified	-30	luck_modified	25	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+pyrepenol	spice			2	buffs.spiceHealth	600	constitution_modified	50	agility_modified	25	luck_modified	-30	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+pyrepenol_01	spice			2	buffs.spiceHealth	900	constitution_modified	50	agility_modified	25	luck_modified	-30	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+droid_lube	spice			2	buffs.spiceAction	600	constitution_modified	50	agility_modified	-30	stamina_modified	25	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+droid_lube_01	spice			2	buffs.spiceAction	900	constitution_modified	50	agility_modified	-30	stamina_modified	25	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+thruster_head	spice			3	buffs.spicePill	900	constitution_modified	-15	agility_modified	25	stamina_modified	-15	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+thruster_head_01	spice			3	buffs.spicePill	900	constitution_modified	-15	agility_modified	25	stamina_modified	-15	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+gunjack	spice			3	buffs.spicePill	900	constitution_modified	25	agility_modified	25	stamina_modified	-50	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+gunjack_01	spice			3	buffs.spicePill	900	constitution_modified	25	agility_modified	25	precision_modified	-50	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+crash_n_burn	spice			3	buffs.spicePill	900	constitution_modified	-50	agility_modified	50	stamina_modified	25	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+crash_n_burn_01	spice			3	buffs.spicePill	900	strength_modified	-50	agility_modified	75	stamina_modified	25	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+neutron_pixey	spice			4	buffs.spiceNeedle	900	constitution_modified	50	agility_modified	50	stamina_modified	50	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+neutron_pixey_01	spice			4	buffs.spiceNeedle	900	constitution_modified	60	agility_modified	60	stamina_modified	60	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+muon_gold	spice			4	buffs.spiceNeedle	900	constitution_modified	50	agility_modified	50	stamina_modified	-50	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+muon_gold_01	spice			4	buffs.spiceNeedle	900	constitution_modified	60	agility_modified	60	precision_modified	-50	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+booster_blue	spice			4	buffs.spiceNeedle	900	constitution_modified	50	agility_modified	-50	stamina_modified	50	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+booster_blue_01	spice			4	buffs.spiceNeedle	900	constitution_modified	60	agility_modified	-25	stamina_modified	60	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+kwi_boost	spice			4	buffs.spicePill	900	constitution_modified	-50	agility_modified	50	stamina_modified	50	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+kwi_boost_01	spice			4	buffs.spicePill	900	constitution_modified	-50	agility_modified	50	stamina_modified	50	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+kliknik_boost	spice			4	buffs.spicePill	900	constitution_modified	10	agility_modified	20	stamina_modified	20	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		1	1	1	0	1	1	0	1	1	1
+kliknik_boost_01	spice			4	buffs.spicePill	900	constitution_modified	10	agility_modified	20	stamina_modified	20	xp_bonus_general	50		0	STATE_NONE	handleSpiceDownerEffect			1	0		0	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 spice_downer	spiceDowner			1	buffs.spiceDowner	30	constitution_modified	-50	agility_modified	-50	stamina_modified	-50	luck_modified	-50		0	STATE_NONE	none			1	1		0	1	1	0	1	1	0	1	1	1
 forceWeaken	forceWeaken	snare		1	jedi.forceWeaken	10	movement	0		0		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 forceWeaken_1	forceWeaken	snare		2	jedi.forceWeaken	20	movement	0		0		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
@@ -829,6 +866,7 @@ fs_ae_dm_cc_3	snare			46	command.fs_ae_dm_cc	7	movement	0		0		0		0		0	STATE_NONE
 fs_ae_dm_cc_4	snare			60	command.fs_ae_dm_cc	10	movement	0		0		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 fs_ae_dm_cc_5	snare			74	command.fs_ae_dm_cc	10	movement	0		0		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 fs_ae_dm_cc_6	snare			90	command.fs_ae_dm_cc	10	movement	0		0		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 fs_buff_ca_1	fsStance	fsOffStance		10	command.fs_buff_ca	-1	expertise_focus	0	private_taunt_bonus	-10		0		0		0	STATE_NONE	none			1	0	appearance/pt_sokan_focus.prt	0	1	1	0	1	1	0	1	1	1
 fs_buff_ca_2	fsStance	fsOffStance		2	command.fs_buff_ca	-1	expertise_focus	0	private_taunt_bonus	-10		0		0		0	STATE_NONE	none			1	0	appearance/pt_makashi_focus.prt	0	1	1	0	1	1	0	1	1	1
 fs_buff_ca_3	fsStance	fsOffStance		3	command.fs_buff_ca	-1	expertise_focus	0	private_taunt_bonus	-10		0		0		0	STATE_NONE	none			1	0	appearance/pt_centerofbeing.prt	0	1	1	0	1	1	0	1	1	1
@@ -841,6 +879,20 @@ fs_buff_def_1_3	fsStance	fsDefStance		3	command.fs_buff_def_1	-1	expertise_stanc
 fs_buff_def_1_4	fsStance	fsDefStance		4	command.fs_buff_def_1	-1	expertise_stance	0	private_taunt_bonus	20		0		0		0	STATE_NONE	none			1	0	appearance/pt_force_resist_disease.prt	0	1	1	0	1	1	0	1	1	1
 fs_buff_def_1_5	fsStance	fsDefStance		5	command.fs_buff_def_1	-1	expertise_stance	0	private_taunt_bonus	20		0		0		0	STATE_NONE	none			1	0	appearance/pt_force_resist_states.prt	0	1	1	0	1	1	0	1	1	1
 fs_buff_def_1_6	fsStance	fsDefStance		6	command.fs_buff_def_1	-1	expertise_stance	0	private_taunt_bonus	20		0		0		0	STATE_NONE	none			1	0	appearance/pt_force_resist_poison.prt	0	1	1	0	1	1	0	1	1	1
+=======
+fs_buff_ca_1	fsStance	fsOffStance		10	command.fs_buff_ca	-1	expertise_focus	0	private_taunt_bonus	-10						0	STATE_NONE	none			1	0	appearance/pt_sokan_focus.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_ca_2	fsStance	fsOffStance		2	command.fs_buff_ca	-1	expertise_focus	0	private_taunt_bonus	-10						0	STATE_NONE	none			1	0	appearance/pt_makashi_focus.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_ca_3	fsStance	fsOffStance		3	command.fs_buff_ca	-1	expertise_focus	0	private_taunt_bonus	-10						0	STATE_NONE	none			1	0	appearance/pt_centerofbeing.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_ca_4	fsStance	fsOffStance		4	command.fs_buff_ca	-1	expertise_focus	0	private_taunt_bonus	-10						0	STATE_NONE	none			1	0	appearance/pt_ataru_focus.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_ca_5	fsStance	fsOffStance		5	command.fs_buff_ca	-1	expertise_focus	0	private_taunt_bonus	-10						0	STATE_NONE	none			1	0	appearance/pt_juyo_focus.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_ca_6	fsStance	fsOffStance		6	command.fs_buff_ca	-1	expertise_focus	0	private_taunt_bonus	-10						0	STATE_NONE	none			1	0	appearance/pt_vaapad_focus.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_def_1_1	fsStance	fsDefStance		10	command.fs_buff_def_1	-1	expertise_stance	0	private_taunt_bonus	20						0	STATE_NONE	none			1	0	appearance/pt_force_avoid_incapacitation.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_def_1_2	fsStance	fsDefStance		2	command.fs_buff_def_1	-1	expertise_stance	0	private_taunt_bonus	20						0	STATE_NONE	none			1	0	appearance/pt_shii_cho_stance.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_def_1_3	fsStance	fsDefStance		3	command.fs_buff_def_1	-1	expertise_stance	0	private_taunt_bonus	20						0	STATE_NONE	none			1	0	appearance/pt_niman_stance.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_def_1_4	fsStance	fsDefStance		4	command.fs_buff_def_1	-1	expertise_stance	0	private_taunt_bonus	20						0	STATE_NONE	none			1	0	appearance/pt_force_resist_disease.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_def_1_5	fsStance	fsDefStance		5	command.fs_buff_def_1	-1	expertise_stance	0	private_taunt_bonus	20						0	STATE_NONE	none			1	0	appearance/pt_force_resist_states.prt	0	1	1	0	1	1	0	1	1	1
+fs_buff_def_1_6	fsStance	fsDefStance		6	command.fs_buff_def_1	-1	expertise_stance	0	private_taunt_bonus	20						0	STATE_NONE	none			1	0	appearance/pt_force_resist_poison.prt	0	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 fs_force_run	fs_force_run			1	command.forceRun	15	slope_move	5	movement	0	movement_resist_snare	100	movement_resist_root	100		0	STATE_NONE	none	clienteffect/pl_force_run.cef,appearance/pt_force_speed.prt		1	0		1	1	1	0	1	1	0	1	1	1
 fs_meditate_1	fs_meditate			1	jedi.channelForce	1800	expertise_evasion_chance	3	expertise_evasion_value	30	expertise_resource_quality_increase	2		0		0	STATE_NONE	none	appearance/pt_force_channel_force.prt		1	0		1	1	1	0	1	1	0	1	1	1
 fs_meditate_2	fs_meditate			1	jedi.saberDervish	1800	expertise_strikethrough_chance	3	combat_strikethrough_value	50	expertise_resource_quality_increase	2		0		0	STATE_NONE	none	appearance/pt_force_meditate.prt		1	0		1	1	1	0	1	1	0	1	1	1
@@ -903,8 +955,13 @@ co_del_ae_cc_2_2	snare			60	command.co_del_ae_cc_2	10	movement	0		0		0		0		0	STA
 co_del_ae_cc_2_3	snare			75	command.co_del_ae_cc_2	12	movement	0		0		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 sp_fld_debuff_ca	spyOffDeb			47	command.sp_fld_debuff_ca	3	cooldown_execute_all	3	stifle	3		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 sp_cc_dot	snare			55	command.sp_cc_dot	10	movement	0		0		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 sp_assassins_mark_reac_proc	sp_reac_proc			56	command.sp_assassins_mark	45	reac_buff	0		0		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 me_buff_health	medicConstitution			31	command.me_buff_health	600	constitution_modified	80		0		0		0		0	STATE_NONE	none	appearance/pt_heal_2.prt		1	0		1	1	1	0	1	1	0	1	1	1
+=======
+sp_assassins_mark_reac_proc	sp_reac_proc			56	command.sp_assassins_mark	45	reac_buff	0	combat_multiply_damage_taken	10		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
+me_buff_health	medicConstitution			31	command.me_buff_health	600	constitution_modified	80	stamina_modified	80	expertise_dot_absorption_all	25	dot_resist_all	25		0	STATE_NONE	none	appearance/pt_heal_2.prt		1	0		1	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 fs_dm_cc_crit	snare			35	command.fs_dm_cc_crit	8	movement	0		0		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 dish_rations	food			5	buffs.foodMeal	3600	agility_modified	15		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 drink_jaar	food			3	buffs.foodBeverage	3600	agility_modified	5	constitution_modified	5		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
@@ -1015,7 +1072,11 @@ vr_familiar_defense_5	vr_familiar			5	buffs.genericBuff	-1	agility_modified	25		
 vr_familiar_defense_6	vr_familiar			6	buffs.genericBuff	-1	agility_modified	30		0		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
 vr_familiar_defense_7	vr_familiar			7	buffs.genericBuff	-1	agility_modified	35		0		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
 vr_familiar_defense_8	vr_familiar			8	buffs.genericBuff	-1	agility_modified	40		0		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 criticalColdEffect	criticalEffect			10	buffs.cryobanSnare	15	combat_multiply_damage_taken	10		0		0		0		0	STATE_NONE	applyCritImmunityBuff			1	1		1	1	1	0	1	1	0	1	1	1
+=======
+criticalColdEffect	criticalEffect			10	buffs.cryobanSnare	6	movement	50	damage_dealt_mod	0.9		0		0		0	STATE_NONE	applyCritImmunityBuff			1	1		1	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 criticalAcidEffect	criticalEffect			10	command.concussionShot	3	critical_hit_vulnerable	75		0		0		0		0	STATE_NONE	applyCritImmunityBuff			1	1		1	1	1	0	1	1	0	1	1	1
 criticalElectricEffect	criticalEffect			10	command.shock	6	glancing_blow_vulnerable	75		0		0		0		0	STATE_NONE	applyCritImmunityBuff			1	1		1	1	1	0	1	1	0	1	1	1
 criticalImmunity	criticalEffect			100	state.anger	6		0		0		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
@@ -1033,8 +1094,13 @@ bh_shields_block	bh_shields	bh_shields	bh_shields	15		5		0		0		0		0		0	STATE_NON
 bh_shields_charged	bh_shields_recourse			10	command.bh_deflection	15	combat_multiply_damage_dealt	1		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	100	1	0	1	1	1
 bh_dread_strike	bh_dread_strike			10	command.bh_dread_strike	15	combat_divide_damage_dealt	25	expertise_healing_reduction	50		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 bh_relentless_onslaught	bh_relentless_onslaught			10	command.bh_relentless	15	expertise_action_all	75		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 bh_take_cover	bh_take_cover			10	command.bh_cover	40	expertise_glancing_blow_ranged	40	expertise_damage_all	10	radar_invis	0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 bh_power_sprint	bh_power_sprint			10	command.bh_armor_sprint	30	movement	0	movement_resist_snare	100		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+=======
+bh_take_cover	bh_take_cover			10	command.bh_cover	40	expertise_glancing_blow_ranged	40	expertise_damage_all	10	radar_invis	0	expertise_strikethrough_chance	25	combat_strikethrough_value	10	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
+bh_power_sprint	bh_power_sprint			10	command.bh_armor_sprint	30	movement	0	movement_resist_snare	25		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 bh_armor_duelist_heal_1	bh_duelist_stance			10	command.bh_armor_duelist	15	reac_buff	1		0		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
 bh_armor_duelist_heal_2	bh_duelist_stance			20	command.bh_armor_duelist	15	reac_buff	1		0		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
 bh_armor_duelist_heal_3	bh_duelist_stance			30	command.bh_armor_duelist	15	reac_buff	1		0		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
@@ -1049,6 +1115,7 @@ proc_gcw_base_damage_b	gcwProcBuff			92	command.detonateDroid	180	proc_buff	1		0
 proc_gcw_base_damage_c	gcwProcBuff			93	command.detonateDroid	180	proc_buff	1		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 proc_gcw_base_damage_d	gcwProcBuff			94	command.detonateDroid	180	proc_buff	1		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 proc_gcw_base_damage_e	gcwProcBuff			95	command.detonateDroid	180	proc_buff	1		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 banner_buff_commando	banner_com			1	Roadmap.commando	600	proc_buff	1		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 banner_buff_smuggler	banner_smug			1	Roadmap.smuggler	600	luck_modified	100		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 banner_buff_medic	banner_med			1	Roadmap.medic	600	constitution_modified	100		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
@@ -1056,6 +1123,15 @@ banner_buff_officer	banner_off			1	Roadmap.officer	600	precision_modified	100		0
 banner_buff_spy	banner_spy			1	Roadmap.spy	600	agility_modified	100		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 banner_buff_bounty_hunter	banner_bh			1	Roadmap.bounty_hunter	600	expertise_critical_niche_all	5		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 banner_buff_force_sensitive	banner_jedi			1	Roadmap.force_sensitive	600	strength_modified	100		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+=======
+banner_buff_commando	banner_com			1	Roadmap.commando	600	proc_buff	1	tcg_gcw_bonus	10		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+banner_buff_smuggler	banner_smug			1	Roadmap.smuggler	600	luck_modified	100	tcg_gcw_bonus	10		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+banner_buff_medic	banner_med			1	Roadmap.medic	600	constitution_modified	100	tcg_gcw_bonus	10		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+banner_buff_officer	banner_off			1	Roadmap.officer	600	precision_modified	100	tcg_gcw_bonus	10		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+banner_buff_spy	banner_spy			1	Roadmap.spy	600	agility_modified	100	tcg_gcw_bonus	10		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+banner_buff_bounty_hunter	banner_bh			1	Roadmap.bounty_hunter	600	expertise_critical_niche_all	5	tcg_gcw_bonus	10		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+banner_buff_force_sensitive	banner_jedi			1	Roadmap.force_sensitive	600	strength_modified	100	tcg_gcw_bonus	10		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 gcw_base_damage_shield_a	gcw_damage_shield			1	command.duelistStance	30	reac_buff	1		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 gcw_base_damage_shield_b	gcw_damage_shield			2	command.duelistStance	30	reac_buff	1		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 gcw_base_damage_shield_c	gcw_damage_shield			3	command.duelistStance	30	reac_buff	1		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
@@ -1098,6 +1174,7 @@ of_buff_def_5	entrench	of_aura_1		5	command.of_buff_def	270	group	0	expertise_do
 of_buff_def_6	entrench	of_aura_1		6	command.of_buff_def	270	group	0	expertise_dodge	3	constitution_modified	35	combat_critical_hit_reduction	7		0	STATE_NONE	none	clienteffect/off_tactics.cef		1	0		1	1	1	0	1	1	0	1	1	1
 of_buff_def_7	entrench	of_aura_1		7	command.of_buff_def	270	group	0	expertise_dodge	4	constitution_modified	50	combat_critical_hit_reduction	8		0	STATE_NONE	none	clienteffect/off_tactics.cef		1	0		1	1	1	0	1	1	0	1	1	1
 of_buff_def_8	entrench	of_aura_1		8	command.of_buff_def	270	group	0	expertise_dodge	4	constitution_modified	60	combat_critical_hit_reduction	9		0	STATE_NONE	none	clienteffect/off_tactics.cef		1	0		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 of_buff_def_9	entrench	of_aura_1		9	command.of_buff_def	270	group	0	expertise_dodge	5	constitution_modified	70	combat_critical_hit_reduction	10		0	STATE_NONE	none	clienteffect/off_tactics.cef		1	0		1	1	1	0	1	1	0	1	1	1
 of_focus_fire_1	focusFire	of_aura_2		26	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	2	combat_strikethrough_value	15	expertise_critical_niche_all	2		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
 of_focus_fire_2	focusFire	of_aura_2		34	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	3	combat_strikethrough_value	20	expertise_critical_niche_all	2		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
@@ -1105,6 +1182,15 @@ of_focus_fire_3	focusFire	of_aura_2		48	command.of_focus_fire	270	group	0	expert
 of_focus_fire_4	focusFire	of_aura_2		62	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	4	combat_strikethrough_value	26	expertise_critical_niche_all	3		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
 of_focus_fire_5	focusFire	of_aura_2		76	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	4	combat_strikethrough_value	29	expertise_critical_niche_all	4		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
 of_focus_fire_6	focusFire	of_aura_2		90	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	5	combat_strikethrough_value	32	expertise_critical_niche_all	5		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
+=======
+of_buff_def_9	entrench	of_aura_1		34	command.of_buff_def	270	group	0	expertise_dodge	5	constitution_modified	70	combat_critical_hit_reduction	10		0	STATE_NONE	none	clienteffect/off_tactics.cef		1	0		1	1	1	0	1	1	0	1	1	1
+of_focus_fire_1	focusFire	of_aura_1		1	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	2	combat_strikethrough_value	15	expertise_critical_niche_all	2		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
+of_focus_fire_2	focusFire	of_aura_1		2	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	3	combat_strikethrough_value	20	expertise_critical_niche_all	2		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
+of_focus_fire_3	focusFire	of_aura_1		3	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	3	combat_strikethrough_value	23	expertise_critical_niche_all	3		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
+of_focus_fire_4	focusFire	of_aura_1		4	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	4	combat_strikethrough_value	26	expertise_critical_niche_all	3		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
+of_focus_fire_5	focusFire	of_aura_1		5	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	4	combat_strikethrough_value	29	expertise_critical_niche_all	4		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
+of_focus_fire_6	focusFire	of_aura_1		34	command.of_focus_fire	270	group	0	expertise_strikethrough_chance	5	combat_strikethrough_value	32	expertise_critical_niche_all	5		0	STATE_NONE	none	clienteffect/off_focus_fire.cef		1	0		1	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 of_inspiration_1	offInspire			26	command.of_inspiration	35	group	0	expertise_action_all	5	healing_action	870		0		0	STATE_NONE	none	clienteffect/off_inspiration.cef		1	0		1	1	1	0	1	1	0	1	1	1
 of_inspiration_2	offInspire			34	command.of_inspiration	35	group	0	expertise_action_all	5	healing_action	1111		0		0	STATE_NONE	none	clienteffect/off_inspiration.cef		1	0		1	1	1	0	1	1	0	1	1	1
 of_inspiration_3	offInspire			48	command.of_inspiration	35	group	0	expertise_action_all	5	healing_action	1532		0		0	STATE_NONE	none	clienteffect/off_inspiration.cef		1	0		1	1	1	0	1	1	0	1	1	1
@@ -1121,7 +1207,11 @@ of_deb_def_5	paintTarget			48	command.of_deb_def	20	expertise_parry	-4	expertise
 of_deb_def_6	paintTarget			62	command.of_deb_def	20	expertise_parry	-5	expertise_dodge	-5	critical_hit_vulnerable	6		0		0	STATE_NONE	none	appearance/pt_officer_paint_target.prt		1	1		1	1	1	0	1	1	0	1	1	1
 of_deb_def_7	paintTarget			76	command.of_deb_def	20	expertise_parry	-6	expertise_dodge	-6	critical_hit_vulnerable	7		0		0	STATE_NONE	none	appearance/pt_officer_paint_target.prt		1	1		1	1	1	0	1	1	0	1	1	1
 of_deb_def_8	paintTarget			90	command.of_deb_def	20	expertise_parry	-7	expertise_dodge	-7	critical_hit_vulnerable	8		0		0	STATE_NONE	none	appearance/pt_officer_paint_target.prt		1	1		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 of_drillmaster_1	drillmaster	of_aura_3		34	command.of_drillmaster	40	group	0	expertise_damage_all	5	expertise_action_all	5	expertise_damage_weapon_2	5		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+=======
+of_drillmaster_1	drillmaster	of_aura_1		34	command.of_drillmaster	40	group	0	expertise_damage_all	5	expertise_action_all	5	expertise_damage_weapon_2	5		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 of_stimulator_1	debuff_purge			26	command.of_stimulator	3	debuff_purge	2		0		0		0		0	STATE_NONE	none	appearance/pt_heal_2.prt		1	0		1	1	1	0	1	1	0	1	1	1
 of_purge_1	environ_purge			26	command.of_purge	10	dot_divisor_all	50	dot_resist_all	100		0		0		0	STATE_NONE	none	appearance/pt_heal_2.prt		1	0		0	1	1	0	1	1	0	1	1	1
 of_vortex_root	root			90	command.of_vortex	3	movement	0		0		0		0		0	STATE_NONE	applyVortexSnare	appearance/pt_officer_crippling_vortex.prt		1	1		1	1	1	0	1	1	0	1	1	1
@@ -1193,7 +1283,11 @@ stackable_me_cranial_smash_1	cranialSmash			34	command.me_cranial_smash	1	stacka
 me_cranial_smash_1	cranialSmash			34	command.me_cranial_smash	10	movement	0	combat_divide_damage_dealt	10		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 fs_dot_immunity_recourse	fsCure			100	command.shock	25		0		0		0		0		0	STATE_NONE	none			1	1		0	1	1	0	1	1	0	1	1	1
 me_rheumatic_calamity_1	medicArthritus			34	command.me_induce_insanity	10	action_burn	65		0		0		0		0	STATE_NONE	none	clienteffect/medic_rheumatic.cef		1	1		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 sp_burst_shadows	sp_burst_shadows			1	command.sp_burst_of_shadows	25	movement	0		0		0		0		0	STATE_NONE	none	appearance/pt_spy_burst_shadows.prt		1	0		0	1	1	0	1	1	0	1	1	1
+=======
+sp_burst_shadows	sp_burst_shadows			1	command.sp_burst_of_shadows	15	movement	0	expertise_damage_all	10	freeshot_case_crit	1	freeshot_case_strikethrough	1		0	STATE_NONE	none	appearance/pt_spy_burst_shadows.prt		1	0		0	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 sp_avoid_damage	sp_avoid_damage			4	command.sp_avoid_damage	15	expertise_dodge	50	expertise_evasion_chance	75		0		0		0	STATE_NONE	none	appearance/pt_spy_avoid_damage.prt		1	0		0	1	1	0	1	1	0	1	1	1
 sp_preparation	sp_preparation			4	command.sp_preparation	15	expertise_damage_all	30	freeshot_case_crit	1	freeshot_case_strikethrough	1		0		0	STATE_NONE	none	appearance/pt_spy_preparation.prt		1	0		0	1	1	0	1	1	0	1	1	1
 sp_shifty_setup	sp_shifty_setup			1	command.sp_shifty_setup	30	expertise_avoidance_overpower	20	expertise_critical_niche_all	-20	expertise_strikethrough_chance	-20	on_attack_remove	1		0	STATE_NONE	none	appearance/pt_spy_shifty_setup.prt,appearance/pt_spy_shifty_setup.prt	hold_l,hold_r	1	0		1	1	1	0	1	1	0	1	1	1
@@ -1732,11 +1826,19 @@ mtp_meatlump_wine_xp_buff	exp_buff			10	buffs.mtp_meatlump_wine_xp_buff	3600	xp_
 mtp_eavesdrop_lockout	invisible_mtp_eavesdrop_buff			1		82800		0		0		0		0		0	STATE_NONE	none			0	1		0	0	0	1	1	1	0	0	1	1
 mtp_wine_lockout	invisible_mtp_wine_buff			1		82800		0		0		0		0		0	STATE_NONE	none			0	1		0	0	0	1	1	1	0	0	1	1
 event_halloween_bat_swarm	particle_swarm			1	buffs.batSwarm	300	event_halloween_bat_swarm	0		0		0		0		0	STATE_NONE	none	appearance/pt_bats.prt		1	0		0	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 food_station	food_station			1	buffs.food_station	-1	station_buff	0	food_station	8644		0		0		0	STATE_NONE	none			1	0		0	1	0	0	1	1	0	1	1	1
 armor_station	armor_station			1	buffs.armor_station	-1	station_buff	0	armor_station	10		0		0		0	STATE_NONE	none			1	0		0	1	0	0	1	1	0	1	1	1
 structure_station	structure_station			1	buffs.structure_station	-1	station_buff	0	structure_station	1536		0		0		0	STATE_NONE	none			1	0		0	1	0	0	1	1	0	1	1	1
 weapon_station	weapon_station			1	buffs.weapon_station	-1	station_buff	0	weapon_station	526369		0		0		0	STATE_NONE	none			1	0		0	1	0	0	1	1	0	1	1	1
 space_station	space_station			1	buffs.space_station	-1	station_buff	0	space_station	393216		0		0		0	STATE_NONE	none			1	0		0	1	0	0	1	1	0	1	1	1
+=======
+food_station	food_station			1	buffs.food_station	-1	station_buff	0	food_station	8644		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
+armor_station	armor_station			1	buffs.armor_station	-1	station_buff	0	armor_station	10		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
+structure_station	structure_station			1	buffs.structure_station	-1	station_buff	0	structure_station	1536		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
+weapon_station	weapon_station			1	buffs.weapon_station	-1	station_buff	0	weapon_station	526369		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
+space_station	space_station			1	buffs.space_station	-1	station_buff	0	space_station	393216		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 event_halloween_costume_jawa	shapechange	halloween_shapechange		1	buffs.costume	1800	movement	0	event_halloween_costume	1		0		0		0	STATE_NONE	none			1	0		0	1	1	1	1	1	0	1	1	1
 event_halloween_costume_toydarian	shapechange	halloween_shapechange		1	buffs.costume	1800	movement	0	event_halloween_costume	2		0		0		0	STATE_NONE	none			1	0		0	1	1	1	1	1	0	1	1	1
 event_halloween_costume_hutt_female	shapechange	halloween_shapechange		1	buffs.costume	1800	movement	0	event_halloween_costume	3		0		0		0	STATE_NONE	none			1	0		0	1	1	1	1	1	0	1	1	1
@@ -1807,7 +1909,11 @@ event_lifeday_competitive_buff	lifeday			1	buffs.lifeday_competitive	3600		0		0	
 event_lifeday_no_laugh	event_lifeday_no_laugh			100		30		0		0		0		0		0	STATE_NONE	none			0	1		0	0	0	1	1	0	0	1	1	1
 event_lifeday_no_bark	event_lifeday_no_bark			100		300		0		0		0		0		0	STATE_NONE	none			0	1		0	0	0	1	1	0	0	1	1	1
 lifeday_bantha_surprise	food			1	buffs.lifeday_bantha_surprise	2700	constitution_modified	100		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 tcg_diner_crafting_station	tcg_diner_station			1	buffs.tcg_diner	-1	structure_experimentation	6	food_experimentation	6	station_buff	0		0		0	STATE_NONE	none			1	0		1	1	0	0	1	1	0	1	1	1
+=======
+tcg_diner_crafting_station	tcg_diner_station			1	buffs.tcg_diner	-1	structure_experimentation	6	food_experimentation	6	station_buff	0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 sp_smoke_mirrors	sp_smoke_mirrors			1	command.sp_smoke_mirrors	6		0		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 sp_fang_dot_0	spyPoison			1	dot.spyPoison	26	dot_acid	75	dot	0		0		0		0	STATE_POISONED	none			1	1		1	1	1	0	6	1	0	1	1	1
 sp_fang_dot_1	spyPoison			2	dot.spyPoison	26	dot_acid	150	dot	0		0		0		0	STATE_POISONED	none			1	1		1	1	1	0	6	1	0	1	1	1
@@ -1913,7 +2019,11 @@ costume_esb_darth_vader	shapechange	costume		1	buffs.costume	3600	storyteller_co
 costume_esb_yoda	shapechange	costume		1	buffs.costume	3600	storyteller_costume	34		0		0		0		0	STATE_NONE	none			1	0		0	1	1	1	1	1	0	1	1	1
 costume_esb_boba_fett	shapechange	costume		1	buffs.costume	3600	storyteller_costume	35		0		0		0		0	STATE_NONE	none			1	0		0	1	1	1	1	1	0	1	1	1
 bh_assault_action_buff	bh_assult			1	command.bh_innate_assault	15	expertise_action_line_dm	10		0		0		0		0	STATE_NONE	none			1	0		0	1	1	0	5	1	0	1	1	1
+<<<<<<< HEAD
 costume_seven_obi_wan_ghost	shapechange	costume		1	buffs.costume	3600	storyteller_costume	36		0		0		0		0	STATE_NONE	none			1	0		0	1	1	1	1	1	0	1	1	1
+=======
+costume_seven_obi_wan_ghost	shapechange	costume		1	command.fs_path_forsake_fear	3600	storyteller_costume	36	damage_dealt_mod	0.1	healthPercent	-66	actionPercent	-66	expertise_innate_protection_all	-3000	STATE_NONE	none			1	0		0	1	0	1	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 duel_recording_tracker	duel_recording			1	buffs.duel_recorder	1800		0		0		0		0		0	STATE_NONE	none			1	0		0	1	1	0	1	1	0	1	1	1
 costume_axkva_min	shapechange	costume		1	buffs.costume	3600	storyteller_costume	37		0		0		0		0	STATE_NONE	none			1	0		0	1	1	1	1	1	0	1	1	1
 costume_meatlump_king	shapechange	costume		1	buffs.costume	3600	storyteller_costume	38		0		0		0		0	STATE_NONE	none			1	0		0	1	1	1	1	1	0	1	1	1
@@ -1978,8 +2088,13 @@ of_pt_proxy_7	pt_proxy			62	command.of_deb_def	1	paint_target	7		0		0		0		0	STAT
 of_pt_proxy_8	pt_proxy			72	command.of_deb_def	1	paint_target	8		0		0		0		0	STATE_NONE	none			1	1		0	1	1	0	1	1	0	1	1	1
 of_deadeye_debuff	deadeye_debuff			70	command.of_deadeye_debuff	15	action_burn	50	glancing_blow_vulnerable	30		0		0		0	STATE_NONE	none			1	1		1	1	1	0	1	1	0	1	1	1
 of_emergency_shield	of_emergency_shield			80	command.of_emergency_shield	10	combat_divide_damage_taken	75	combat_divide_damage_dealt	75		0		0		0	STATE_NONE	none	clienteffect/of_em_shields.cef		1	0		1	1	1	0	1	1	0	1	1	1
+<<<<<<< HEAD
 banner_buff_entertainer	banner_ent			1	Roadmap.entertainer	600	expertise_dodge	2		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 banner_buff_trader	banner_trad			1	Roadmap.trader	600	expertise_glancing_blow_all	2		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+=======
+banner_buff_entertainer	banner_ent			1	Roadmap.entertainer	600	expertise_dodge	2	tcg_gcw_bonus	10		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+banner_buff_trader	banner_trad			1	Roadmap.trader	600	expertise_glancing_blow_all	2	tcg_gcw_bonus	10		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 en_action_regen	en_action_regen			10	command.sm_general_elbow_grease	10	expertise_action_weapon_melee	60		0		0		0		0	STATE_NONE	none			1	0		1	1	1	0	1	1	0	1	1	1
 set_bonus_trader_1	setBonusTrader			1	command.powerBoost	-1	stamina_modified	60		0		0		0		0	STATE_NONE	none			1	0		0	0	1	0	1	1	0	1	1	1
 set_bonus_trader_2	setBonusTrader			1	command.powerBoost	-1	stamina_modified	90	agility_modified	90		0		0		0	STATE_NONE	none			1	0		0	0	1	0	1	1	0	1	1	1

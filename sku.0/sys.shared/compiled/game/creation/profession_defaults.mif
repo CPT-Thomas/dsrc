@@ -20,6 +20,9 @@ form "PFDT"
 		PROF(combat_marksman)
 		PROF(science_medic)
 		PROF(outdoors_scout)
+<<<<<<< HEAD
 		PROF(jedi)
+=======
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 	}
 }

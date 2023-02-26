@@ -1,6 +1,10 @@
 posture	stationary	slow	fast	movementScale	accelerationScale	turnScale	canSeeHeightMod
 z(datatables/include/posture.iff)	z(datatables/include/locomotion.iff)	z(datatables/include/locomotion.iff)	z(datatables/include/locomotion.iff)	f	f	f	f
+<<<<<<< HEAD
 Upright	Standing	Walking	Running	1	1	1	1
+=======
+Upright	Standing	Walking	Running	0.95	0.95	1	1
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 Crouched	Kneeling	CrouchWalking		0.5	0.5	0.75	0.5
 Prone	Prone	Crawling		0.25	0.25	0.2	0.25
 Sneaking	Standing	Sneaking		0.5	0.5	0.75	1

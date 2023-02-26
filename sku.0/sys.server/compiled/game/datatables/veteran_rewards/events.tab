@@ -1,5 +1,6 @@
 id	Items	Include Items From	Category	Feature Bit Reward Exclusion Mask	Account Flags	Account Feature Id	Feature Id Blocked by Subscription Bit	Consume Account Feature Id	Account Age Days	Character Age Days	Character Objvar	Once Per Account	Announcement Message	Description	URL	Start Date yyyy	Start Date mm	Start Date dd	End Date yyyy	End Date mm	End Date dd	Buddy Points	Comments
 s	s	s	i[0]	i	i	i	i[0]	b[1]	i	i	s	b	s	s	s	i[0]	i[0]	i[0]	i[0]	i[0]	i[0]	i	c
+<<<<<<< HEAD
 3mo	poweredharvester,dataterminal1,dataterminal2,dataterminal3,dataterminal4,mini_protocoldroid,mini_r2		1	0	0	0	0		90	0		1	veteran_new:announcement_90day	veteran_new:choice_description	web.archive.org/web/20090207200717/http://starwarsgalaxies.station.sony.com/content.vm?page=Veteran%20Rewards								Rewards that have the same non-zero Category value must be claimed
 6mo	resourcecrate,falconcouch,falconchair,mini_tiefighter,mini_xwing	3mo	1	0	0	0	0		180	0		1	veteran_new:announcement_180day	veteran_new:choice_description	web.archive.org/web/20090207200717/http://starwarsgalaxies.station.sony.com/content.vm?page=Veteran%20Rewards								in the order that the rewards are listed (i.e. only the first qualified reward in the category will be listed,
 9mo	houseplant,display_stand	3mo,6mo	1	0	0	0	0		270	0		1	veteran_new:announcement_270day	veteran_new:choice_description	web.archive.org/web/20090207200717/http://starwarsgalaxies.station.sony.com/content.vm?page=Veteran%20Rewards								and it must be claimed before the next qualified reward in the category will be listed)
@@ -48,3 +49,6 @@ HousePackupReward	return_painting			1	0	0	0		0	0		1	veteran_new:announcement_ret
 Summit2007	painting_summit_s02			1	16777216	0	0		0	0		0	veteran_new:announcement_2007_summit	veteran_new:choice_description	web.archive.org/web/20090207200717/http://starwarsgalaxies.station.sony.com/content.vm?page=Veteran%20Rewards								
 itvRoyal	instant_travel_royal_ship			0	33554432	0	0		0	0		0	veteran_new:announcement_itv_royal	veteran_new:choice_description	web.archive.org/web/20090207200717/http://starwarsgalaxies.station.sony.com/content.vm?page=Veteran%20Rewards	2018	12	15	2019	2	1		
 fan_gathering_08	fan_gathering_08			0	134217728	0	0		0	0		0	veteran_new:announcement_galactic_gathering_08	veteran_new:choice_description	web.archive.org/web/20090207200717/http://starwarsgalaxies.station.sony.com/content.vm?page=Veteran%20Rewards	2016	12	15	2017	2	1		
+=======
+3mo	city_flag_kit		1	0	0	0	0		90	0		1	veteran_new:announcement_90day	veteran_new:choice_description	web.archive.org/web/20090207200717/http://starwarsgalaxies.station.sony.com/content.vm?page=Veteran%20Rewards								Rewards that have the same non-zero Category value must be claimed
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c

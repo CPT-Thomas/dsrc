@@ -1,4 +1,17 @@
 AdminAccounts	AdminLevel	AdminSkill	AdminComment	AdminComment2	AdminIpBlocks	AdminIpComment	AdminSuid	OldAdminSuid
 s	i{0}	s	c	c	s	c	i{0}	i{0}
+<<<<<<< HEAD
 hsskor	50	admin		all account names must be lower case		main admin account	1	
 cptthomas	50	admin				main admin account	2	
+=======
+<<<<<<< HEAD
+swg	50	admin		all account names must be lower case		main admin account	1	
+swg2	50	admin				main admin account	2	
+swg3	50	admin				main admin account	3	
+swg4	50	admin				main admin account	4	
+swg5	50	admin				main admin account	5	
+=======
+hsskor	50	admin		all account names must be lower case		main admin account	1	
+kaibyr	50	admin				main admin account	2	
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
+>>>>>>> 12e066b8e9f9297a675e1010169da41fb3cf732a

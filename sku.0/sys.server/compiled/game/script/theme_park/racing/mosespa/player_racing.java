@@ -2,6 +2,10 @@ package script.theme_park.racing.mosespa;
 
 import script.dictionary;
 import script.library.colors;
+<<<<<<< HEAD
+=======
+import script.library.static_item;
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 import script.library.utils;
 import script.location;
 import script.obj_id;
@@ -231,6 +235,11 @@ public class player_racing extends script.base_script
             removeObjVar(self, "racing.mosespa.returnLoc");
             removeObjVar(self, "racing.mosespa.isRacing");
             playMusic(self, "sound/music_int_complete_neutral.snd");
+<<<<<<< HEAD
+=======
+	    obj_id playerInv = utils.getInventoryContainer(self);
+            static_item.createNewItemFunction("item_pgc_token_01", playerInv);
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         }
         return SCRIPT_CONTINUE;
     }

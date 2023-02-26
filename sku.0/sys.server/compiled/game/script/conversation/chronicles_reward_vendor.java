@@ -39,6 +39,10 @@ public class chronicles_reward_vendor extends script.base_script
     public int OnAttach(obj_id self) throws InterruptedException
     {
         setCondition(self, CONDITION_CONVERSABLE);
+<<<<<<< HEAD
+=======
+        setName(self, "SD-1 Currency Exchange Droid (Intergalactic Banking Clan)");
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
         ai_lib.setDefaultCalmBehavior(self, ai_lib.BEHAVIOR_SENTINEL);
         return SCRIPT_CONTINUE;
     }

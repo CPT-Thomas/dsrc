@@ -12,7 +12,11 @@ sharedTemplate = "object/tangible/deed/city_deed/shared_garden_corellia_sml_03_d
 objvars = +[
 	"player_structure.deed.template" = "object/building/player/city/garden_corellia_sml_03.iff",
 	"player_structure.deed.buildtime" = 10,
+<<<<<<< HEAD
 	"player_structure.deed.scene" = "corellia,talus"]
+=======
+	"player_structure.deed.scene" = "corellia,talus,endor"]
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
 
 scripts = +[
 	"item.structure_deed.player_structure_deed"]

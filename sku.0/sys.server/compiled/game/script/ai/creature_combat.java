@@ -764,7 +764,11 @@ public class creature_combat extends script.systems.combat.combat_base
             {
                 int warningTime = utils.getIntScriptVar(attacker, "gcw.specialForcesWarningTime");
                 int timeDelta = getGameTime() - warningTime;
+<<<<<<< HEAD
                 if (timeDelta > 30)
+=======
+                if (timeDelta > 2)//edited lower to initiate "flagging" upon combat essentially
+>>>>>>> b69511aac62f968d19305ea6fd12278ad6f3b87c
                 {
                     if (timeDelta > 90)
                     {
